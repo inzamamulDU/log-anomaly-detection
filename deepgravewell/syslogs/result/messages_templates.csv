@@ -1,0 +1,662 @@
+EventId,EventTemplate,Occurrences
+64bd3b91,"[origin software=""rsyslogd"" swVersion=""8.1911.0-6.el8"" x-pid=""922"" x-info=""https://www.rsyslog.com""] rsyslogd was HUPed",1
+ae50616a,<info> <*> dhcp4 (eth0): option <*> => <*>,2678
+c592d122,<info> <*> dhcp4 (eth0): state changed <*> -> <*>,103
+9637bfe5,"[system] Activating via systemd: service <*> <*> requested by <*> (uid=0 <*> comm=""/usr/sbin/NetworkManager --no-daemon "")",109
+cf670cc6,Starting Network Manager Script Dispatcher Service...,103
+de230850,[system] Successfully activated service <*>,108
+16a3ed3f,Started Network Manager Script Dispatcher Service.,103
+1dad2c1c,NetworkManager-dispatcher.service: Succeeded.,103
+e74be86b,Starting dnf makecache...,50
+b0dd5a92,Metadata cache refreshed recently.,33
+8a53f6ae,dnf-makecache.service: Succeeded.,50
+9e1f80ca,Started dnf makecache.,50
+85948e71,gravwell <*> kB/s | 2.9 kB 00:00,17
+94a50637,CentOS Linux 8 - <*> <*> kB/s | <*> kB <*>,51
+8ae12ff8,Extra Packages for Enterprise Linux Modular 8 - <*> <*> | <*> kB <*>,17
+6c98c4b8,Extra Packages for Enterprise Linux 8 - x86_64 <*> <*> | <*> <*> <*>,20
+2484c303,Kibana repository for 7.x packages <*> <*> | <*> <*> 00:00,18
+b3208314,Remi's Modular repository for Enterprise Linux <*> kB/s | <*> kB <*>,21
+cea3b013,Safe Remi's RPM repository for Enterprise Linux <*> <*> | <*> <*> <*>,21
+71a3c563,EL- - Wazuh <*> kB/s | 3.4 kB 00:00,17
+3eda7741,Metadata cache created.,17
+ebb15120,Created slice <*>,7
+8702fbd0,Started /run/user/1000 mount wrapper.,6
+c332832f,Created slice User Slice of UID 1000.,6
+76e67e60,Starting User Manager for UID 1000...,6
+7360c8b4,Started Session <*> of user centos.,6
+a26a4c59,New session <*> of user centos.,6
+298f8d8b,Started Mark boot as successful after the user session has run 2 minutes.,6
+b06f0da5,Starting D-Bus User Message Bus Socket.,6
+1482f31a,Reached target <*>,43
+d39a60d5,Listening on D-Bus <*> Message Bus Socket.,9
+479a94fc,Reached target <*> System.,15
+360bc5b1,Startup finished in <*>,6
+14ddf4c6,Started User Manager for UID 1000.,6
+275b5fe3,Starting Mark boot as successful...,6
+3a00588a,grub-boot-success.service: Succeeded.,6
+b6917ca3,Started Mark boot as successful.,6
+a7811d8a,session-1.scope: Succeeded.,3
+a270dccd,Session <*> logged out. Waiting for processes to exit.,4
+c9cfd6b2,Removed session <*>,4
+dd9e60f6,Stopping User Manager for UID 1000...,4
+6b3c4980,Stopped target <*>,31
+5df87396,Stopped target Basic System.,7
+aba9d2b2,dbus.socket: Succeeded.,4
+ac974b29,Closed D-Bus User Message Bus Socket.,4
+32b91c03,grub-boot-success.timer: Succeeded.,4
+1b8efc7b,Stopped Mark boot as successful after the user session has run 2 minutes.,4
+fe23ad32,Starting Exit the Session...,4
+8700016c,user@1000.service: Succeeded.,4
+3fb5e4ed,Stopped User Manager for UID 1000.,4
+fe4746b1,Stopping /run/user/1000 mount wrapper...,4
+bd050770,Removed slice User Slice of UID 1000.,4
+187f566a,run-user-1000.mount: Succeeded.,4
+ec841c6d,user-runtime-dir@1000.service: Succeeded.,4
+148e5b7d,Stopped /run/user/1000 mount wrapper.,4
+83db21f0,"Command line: BOOT_IMAGE=(hd0,msdos1)/boot/vmlinuz-4.18.0-240.15.1.el8_3.x86_64 root=UUID=e1fde865-e606-4e2b-b95a-dc593a01161f ro console=ttyS0,115200n8 no_timer_check net.ifnames=0 nvme_core.io_timeout=4294967295 nvme_core.max_retries=10 crashkernel=auto",3
+75a4ec20,x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers',3
+3b0d78c0,x86/fpu: Supporting XSAVE feature <*> <*> registers',6
+18f896b1,"x86/fpu: xstate_offset[2]: 576, xstate_sizes[2]: 256",3
+0e2b0223,"x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.",3
+8c537990,BIOS-provided physical RAM map:,3
+d5b18bd1,BIOS-e820: [mem <*> usable,9
+414b42c3,BIOS-e820: [mem <*> reserved,18
+9ad2d490,NX (Execute Disable) protection: active,3
+5c67fb8e,SMBIOS 2.7 present.,3
+22b3ce4c,"DMI: Amazon EC2 t3a.medium/, BIOS 1.0 10/16/2017",3
+2b903ff4,Hypervisor detected: KVM,3
+db023bc4,kvm-clock: Using msrs 4b564d01 and 4b564d00,3
+da9446b3,kvm-clock: cpu <*> msr <*> <*> cpu clock,6
+7e67fced,kvm-clock: using sched offset of <*> cycles,3
+036b3132,clocksource: <*> mask: 0xffffffffffffffff max_cycles: <*> max_idle_ns: <*> ns,9
+4680a8a0,tsc: Detected <*> MHz processor,3
+a20e32fd,last_pfn = <*> max_arch_pfn = 0x400000000,6
+1967fe4b,x86/PAT: Configuration [0-7]: WB WC UC- UC WB WP UC- WT,3
+2f77a67f,kexec: Reserving the low 1M of memory for crashkernel,3
+78e43dc3,Using GB pages for direct mapping,3
+2acf0a1a,RAMDISK: [mem 0x30c64000-0x34629fff],3
+de64db5a,ACPI: Early table checksum verification disabled,3
+9532d326,ACPI: RSDP 0x00000000000F8F40 000014 (v00 AMAZON),3
+a7a65bc0,ACPI: <*> <*> <*> (v01 AMAZON <*> 00000001 AMZN 00000001),27
+28dc9132,ACPI: FACS 0x00000000BFFEFF40 000040,3
+c2887a8d,SRAT: PXM 0 -> APIC <*> -> Node 0,6
+342691db,ACPI: SRAT: Node 0 PXM 0 [mem <*>,6
+ba8c270d,NUMA: Node 0 [mem 0x00000000-0xbfffffff] + [mem 0x100000000-0x13cffffff] -> [mem 0x00000000-0x13cffffff],3
+0be50481,NODE_DATA(0) allocated [mem <*>,3
+67539896,"Using crashkernel=auto, the size chosen is a best effort estimation.",3
+2ed65c81,Reserving 192MB of memory at 2864MB for crashkernel (System RAM: 4047MB),3
+7886c273,Zone ranges:,3
+bb388dd3,DMA [mem 0x0000000000001000-0x0000000000ffffff],3
+3b69a2c3,DMA32 [mem 0x0000000001000000-0x00000000ffffffff],3
+a26e6fbd,Normal [mem 0x0000000100000000-0x000000013cffffff],3
+b10f1200,Device empty,3
+be92f991,Movable zone start for each node,3
+11506259,Early memory node ranges,3
+d726cc1f,node 0: [mem <*>,9
+038074e8,Zeroed struct page in unavailable ranges: 12408 pages,3
+1df8f0b0,Initmem setup node 0 [mem 0x0000000000001000-0x000000013cffffff],3
+7b96e5ca,ACPI: PM-Timer IO Port: 0xb008,3
+3001541d,ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1]),3
+14a31cfb,"IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23",3
+16d14191,ACPI: INT_SRC_OVR (bus 0 bus_irq <*> global_irq <*> high level),12
+cd364792,Using ACPI (MADT) for SMP configuration information,3
+57cd947c,ACPI: HPET id: 0x8086a201 base: 0xfed00000,3
+8aac6951,"smpboot: Allowing 2 CPUs, 0 hotplug CPUs",3
+327267fd,PM: Registered nosave memory: [mem <*>,27
+4109cf44,[mem 0xc0000000-0xdfffffff] available for PCI devices,3
+dbdd571f,Booting paravirtualized kernel on KVM,3
+93a0ba73,"clocksource: <*> mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: <*> ns",9
+8b22c89b,setup_percpu: NR_CPUS:8192 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1,3
+12da3b8d,percpu: Embedded 54 pages/cpu s184320 r8192 d28672 u1048576,3
+03977110,KVM setup async PF for cpu <*>,6
+d75c18c2,kvm-stealtime: cpu <*> msr <*>,6
+ee8f8317,"PV qspinlock hash table entries: 256 (order: 0, 4096 bytes)",3
+356a2684,"Built 1 zonelists, mobility grouping on. Total pages: 1019818",3
+8822fa6e,Policy zone: Normal,3
+a86a63aa,"Kernel command line: BOOT_IMAGE=(hd0,msdos1)/boot/vmlinuz-4.18.0-240.15.1.el8_3.x86_64 root=UUID=e1fde865-e606-4e2b-b95a-dc593a01161f ro console=ttyS0,115200n8 no_timer_check net.ifnames=0 nvme_core.io_timeout=4294967295 nvme_core.max_retries=10 crashkernel=auto",3
+9604c4fa,Specific versions of hardware are certified with Red Hat Enterprise Linux 8. Please see the list of hardware certified with Red Hat Enterprise Linux 8 at https://catalog.redhat.com.,3
+ae099f88,"Memory: <*> available (12292K kernel code, 2184K rwdata, 3960K rodata, 2432K init, 13460K bss, <*> reserved, 0K cma-reserved)",3
+6f48b977,"SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1",3
+b2b0a75b,ftrace: allocating 37453 entries in 147 pages,3
+49a8fbf1,ftrace: allocated 147 pages with 4 groups,3
+a627f374,rcu: Hierarchical <*> implementation.,6
+00b543fb,rcu: #011RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=2.,3
+d515259d,rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.,3
+29fdb959,"rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2",3
+4682e517,"NR_IRQS: 524544, nr_irqs: 440, preallocated irqs: 16",3
+a80286ec,random: crng done (trusting CPU's manufacturer),3
+a5b547df,Console: colour VGA+ 80x25,3
+b236aa39,printk: console [ttyS0] enabled,3
+ac439872,ACPI: Core revision 20200110,3
+998d28fe,APIC: Switch to symmetric I/O mode setup,3
+129b4e44,..TIMER: vector=0x30 apic1=0 pin1=0 apic2=-1 pin2=-1,3
+4743fa37,Calibrating delay loop (skipped) preset value.. <*> BogoMIPS <*>,3
+991d3dc4,pid_max: default: 32768 minimum: 301,3
+ef30e5ad,Security Framework initialized,3
+95a6332e,Yama: becoming mindful.,3
+158c34d8,SELinux: Initializing.,3
+ed6fe884,"Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes)",3
+bf79fdbc,"Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes)",3
+35e3a499,"Mount-cache hash table entries: 8192 (order: 4, 65536 bytes)",3
+14f04cca,"Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes)",3
+124fdea3,"Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 512",3
+61b5e5f9,"Last level dTLB entries: 4KB 1536, 2MB 1536, 4MB 768, 1GB 0",3
+b1bc7a31,FEATURE <*> Not Present,6
+d69b1055,Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization,3
+2bda6a69,Spectre V2 : Mitigation: Full AMD retpoline,3
+e7c549cc,Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch,3
+ec25b926,Speculative Store Bypass: Vulnerable,3
+17f9f00e,Freeing SMP alternatives memory: 32K,3
+cf8a385a,"smpboot: CPU0: AMD EPYC 7571 (family: 0x17, model: 0x1, stepping: 0x2)",3
+27bca24d,"Performance Events: PMU not available due to virtualization, using software events only.",3
+a4329296,NMI watchdog: Perf NMI watchdog permanently disabled,3
+e4359610,smp: Bringing up secondary CPUs ...,3
+b1713fd1,x86: Booting SMP configuration:,3
+827b5b1b,".... node #0, CPUs: #1",3
+476ac6bb,"smp: Brought up 1 node, 2 CPUs",3
+5f741f80,smpboot: Max logical packages: 1,3
+54b2e08e,smpboot: Total of 2 processors activated <*> BogoMIPS),3
+742e6bad,node 0 deferred pages initialised in <*>,3
+993de906,devtmpfs: initialized,3
+4c277a1f,x86/mm: Memory block size: 128MB,3
+45427881,"futex hash table entries: 512 (order: 3, 32768 bytes)",3
+e207e0f9,pinctrl core: initialized pinctrl subsystem,3
+4af88f8f,NET: Registered protocol family <*>,21
+ae59ac6f,audit: initializing netlink subsys (disabled),3
+fccc8e9f,audit: type=2000 <*> state=initialized audit_enabled=0 res=1,3
+1254d474,cpuidle: using governor menu,3
+d6fc541a,ACPI: bus type <*> registered,6
+d71ea53b,acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5,3
+56a1bb04,PCI: Using configuration type 1 for <*> access,6
+e50c1a08,"HugeTLB registered <*> <*> page size, pre-allocated 0 pages",6
+1feca1ea,cryptd: max_cpu_qlen set to 1000,3
+f10aeb53,ACPI: Added <*> Device),6
+a2146653,ACPI: Added _OSI(3.0 _SCP Extensions),3
+0df72657,ACPI: Added _OSI(Processor Aggregator Device),3
+744520df,ACPI: Added <*>,9
+6084ba19,ACPI: 2 ACPI AML tables successfully acquired and loaded,3
+3c9bd707,ACPI: Interpreter enabled,3
+da8564c1,ACPI: (supports S0 S4 S5),3
+aebadbc0,ACPI: Using IOAPIC for interrupt routing,3
+62f8cc04,"PCI: Using host bridge windows from ACPI; if necessary, use ""pci=nocrs"" and report a bug",3
+f2bda4c6,ACPI: Enabled 16 GPEs in block 00 to 0F,3
+dc17a396,ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff]),3
+b7c4c8ef,acpi PNP0A03:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3],3
+9f6acb47,acpiphp: Slot <*> registered,87
+b5f960ea,PCI host bridge to bus 0000:00,3
+f0d5b20a,pci_bus 0000:00: root bus resource <*> <*> window],12
+040c28ee,pci_bus 0000:00: root bus resource [bus 00-ff],3
+9b2156bd,pci 00<*>.0: <*> type 00 class <*>,15
+c04eb49b,pci 00<*>.3: [8086:7113] type 00 class 0x000000,3
+aa194382,pci 00<*>.3: quirk: [io <*> claimed by PIIX4 <*>,6
+eb30939f,pci 00<*>.3: PIIX4 devres <*> <*> at <*>,18
+3daa53cd,pci 00<*>.3: quirk_piix4_acpi+0x0/0x170 took 11718 usecs,1
+dd84a69f,pci 00<*>.0: reg <*> [mem <*> pref],6
+8e00e04a,pci 00<*>.0: reg 0x10: [mem <*>,6
+11307e89,ACPI: PCI Interrupt Link <*> (IRQs 5 <*> <*>,12
+9a07162d,ACPI: PCI Interrupt Link [LNKS] (IRQs *9),3
+f9c27ef6,iommu: Default domain type: Passthrough,3
+b3ae29a0,pci 00<*>.0: vgaarb: setting as boot VGA device,3
+8445aed3,"pci 00<*>.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none",3
+6aa804ff,pci 00<*>.0: vgaarb: bridge control possible,3
+9380362d,vgaarb: loaded,3
+cecc13aa,SCSI subsystem initialized,3
+50241d93,usbcore: registered new <*> driver <*>,15
+b151f1d1,pps_core: LinuxPPS API ver. 1 registered,3
+1ab2d06e,pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>,3
+c9703be2,PTP clock support registered,3
+02f3eb39,EDAC MC: Ver: 3.0.0,3
+4aacee6a,PCI: Using ACPI for IRQ routing,3
+e419e54a,NetLabel: Initializing,3
+2756192c,NetLabel: domain hash size = 128,3
+894f3d1a,NetLabel: protocols = UNLABELED CIPSOv4 CALIPSO,3
+9512f72c,NetLabel: unlabeled traffic allowed by default,3
+e64872ce,"hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0",3
+a4d69a66,"hpet0: 8 comparators, 32-bit 62.500000 MHz counter",3
+98086997,clocksource: Switched to clocksource <*>,6
+0db9c186,VFS: Disk quotas dquot_6.6.0,3
+422d8902,"VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)",3
+4b096cf6,pnp: PnP ACPI init,3
+6d50ab14,pnp: PnP ACPI: found 5 devices,3
+92249c43,"clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns",3
+4ca94775,pci_bus 0000:00: resource <*> [io <*> window],6
+c25f1038,pci_bus 0000:00: resource <*> [mem <*> window],6
+7d9abe5b,"tcp_listen_portaddr_hash hash table entries: 2048 (order: 3, 32768 bytes)",3
+5a13deb7,TCP <*> hash table entries: 32768 (order: <*> <*> bytes),6
+41feeaef,TCP: Hash tables configured (established 32768 bind 32768),3
+ec3bbfd4,"UDP hash table entries: 2048 (order: 4, 65536 bytes)",3
+2445bb83,"UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes)",3
+14939cf5,pci 00<*>.0: Limiting direct PCI/PCI transfers,3
+c8c87602,pci 00<*>.0: Activating ISA DMA hang workarounds,3
+e424a28a,pci 00<*>.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff],3
+37f11a8d,"PCI: CLS 0 bytes, default 64",3
+7fab8d46,Unpacking initramfs...,3
+50596ff5,Freeing initrd memory: 59160K,3
+8d630a2b,PCI-DMA: Using software bounce buffering for IO (SWIOTLB),3
+eb5e6666,software IO TLB: mapped [mem 0xaf000000-0xb3000000] (64MB),3
+99245987,Initialise system trusted keyrings,3
+13298e1e,Key type <*> registered,12
+868a78f6,workingset: timestamp_bits=36 max_order=20 bucket_order=0,3
+1055695a,zbud: loaded,3
+5d2449fe,pstore: using deflate compression,3
+0d2921ff,Platform Keyring initialized,3
+d00590bb,Asymmetric key parser 'x509' registered,3
+e465d9ed,Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247),3
+6eb6460b,io scheduler <*> registered,9
+92bafa03,atomic64_test: passed for x86-64 platform with CX8 and with SSE,3
+f329b944,shpchp: Standard Hot Plug PCI Controller Driver version: 0.4,3
+b986cbcc,input: <*> Button as <*>,6
+07963a57,ACPI: Power Button [PWRF],3
+d40a5d01,ACPI: Sleep Button [SLPF],3
+5307e176,"Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled",3
+c5001885,"00:04: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A",3
+e26292ca,Non-volatile memory driver v1.3,3
+0210be74,rdac: device handler registered,3
+e799d6d3,hp_sw: device handler registered,3
+7431aa08,emc: device handler registered,3
+d1783632,alua: device handler registered,3
+7127820d,libphy: Fixed MDIO Bus: probed,3
+d6590a33,ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver,3
+c6ca8267,ehci-pci: EHCI PCI platform driver,3
+c9a6dea6,ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver,3
+a83ce179,ohci-pci: OHCI PCI platform driver,3
+07597abb,uhci_hcd: USB Universal Host Controller Interface driver,3
+a5baa874,usbserial: USB Serial support registered for generic,3
+d990b733,"i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12",3
+f566b46c,i8042: Warning: Keylock active,3
+2bf09b69,"serio: i8042 <*> port at 0x60,0x64 irq <*>",6
+2a619f7a,mousedev: PS/2 mouse device common for all mice,3
+5e03a99f,rtc_cmos 00:00: RTC can wake from S4,3
+eff69586,rtc_cmos 00:00: registered as rtc0,3
+9fa9d875,"rtc_cmos 00:00: alarms up to one day, 114 bytes nvram",3
+2a8a9749,hidraw: raw HID events driver (C) Jiri Kosina,3
+577272ec,usbhid: USB HID core driver,3
+e5ec4204,drop_monitor: Initializing network drop monitor service,3
+6f3b0c60,Initializing XFRM netlink socket,3
+c27cb6da,Segment Routing with IPv6,3
+f2bf7195,mpls_gso: MPLS GSO support,3
+cfca5b9d,core: Using 32 MCE banks,3
+1798c900,AVX2 version of gcm_enc/dec engaged.,3
+2aacc4a3,AES CTR mode by8 optimization enabled,3
+2e1df8c4,"sched_clock: Marking stable (1276114667, 0)->(1940872518, -664757851)",1
+bbaa52c6,registered taskstats version 1,3
+28e105d4,Loading compiled-in X.509 certificates,3
+b0956c94,Loaded X.509 cert 'CentOS kernel signing key: 6f50b72debe95708de95b8e16c221c40bbebe531',3
+0dd59eea,Loaded X.509 cert 'CentOS Linux Driver update signing key: 29bd4c0d06d2e9911044b5dc973309139b51d6d5',3
+937d0871,Loaded X.509 cert 'CentOS Linux kpatch signing key: b49f086205909dc4da2cfa99376fb191d2f09e78',3
+7313fe31,zswap: loaded using pool lzo/zbud,3
+1550dab3,page_owner is disabled,3
+b6ee421a,"ima: No TPM chip found, activating TPM-bypass!",3
+0d2c0928,ima: Allocated hash algorithm: sha1,3
+46de5a31,ima: No architecture policies found,3
+1a992934,evm: Initialising EVM extended attributes:,3
+6ceddc5c,evm: security.selinux,3
+23e99d0e,evm: security.ima,3
+7dc4304f,evm: security.capability,3
+c3381d02,evm: HMAC attrs: 0x1,3
+5007c5da,rtc_cmos 00:00: setting system clock to <*> <*> UTC <*>,3
+e1e54978,Freeing unused <*> memory: <*>,12
+528eb41e,Write protecting the kernel read-only data: 18432k,3
+8486a8e8,systemd 239 (239-41.el8_3.1) running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN2 -IDN +PCRE2 default-hierarchy=legacy),6
+d7f2b76a,Detected virtualization kvm.,6
+e5431ed0,Detected architecture x86-64.,6
+f178e470,Running in initial RAM disk.,3
+61067111,No hostname configured.,3
+7d9670d4,Set hostname to <*>,6
+a155623c,Initializing machine ID from KVM UUID.,3
+5d1d2a25,Listening on Journal Socket (/dev/log).,2
+e81b55ac,Listening on udev Control Socket.,1
+f93be28f,input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2,3
+2f2390b1,device-mapper: uevent: version 1.0.3,3
+7019ae70,device-mapper: ioctl: 4.42.0-ioctl (2020-02-27) initialised: dm-devel@redhat.com,3
+cd734c15,RPC: Registered named UNIX socket transport module.,3
+571dd3e3,RPC: Registered <*> transport module.,6
+f5cee882,RPC: Registered tcp NFSv4.1 backchannel transport module.,3
+d8d2d2cd,input: ImPS/2 Generic Wheel Mouse as /devices/platform/i8042/serio1/input/input4,3
+9615c27f,Journal started,6
+fe37874a,"Runtime journal (/run/log/journal/ec2396567f3b518308aa6876e43b9425) is 8.0M, max 184.5M, 176.5M free.",9
+0c5acbf0,Version 2.3.3 starting,6
+8c3c50a8,Initializing NSM state,3
+9a1a0eab,Running as root. chown /var/lib/nfs/statd to choose different user,3
+6c2a619f,Setting log level to 0,3
+e08deeb7,Initializing available sources,6
+497a3385,Failed to init entropy source hwrng,6
+107e8f7b,Enabling <*> rng support,10
+6a6038d0,Initializing entropy source <*>,10
+59669b58,dracut-8 dracut-049-95.git20200804.el8_3.4,3
+76cc9317,"Using kernel command line parameters: BOOT_IMAGE=(hd0,msdos1)/boot/vmlinuz-4.18.0-240.15.1.el8_3.x86_64 root=UUID=e1fde865-e606-4e2b-b95a-dc593a01161f ro console=ttyS0,115200n8 no_timer_check net.ifnames=0 nvme_core.io_timeout=4294967295 nvme_core.max_retries=10 crashkernel=auto",3
+e816498e,Started dracut <*> hook.,9
+22110ed5,Starting udev Kernel Device Manager...,3
+f6cfafc7,"Network interface NamePolicy= disabled on kernel command line, ignoring.",9
+0964e582,Started udev Kernel Device Manager.,6
+232c2719,Starting dracut <*> hook...,6
+bdbcf5b5,Starting udev Coldplug all Devices...,3
+f367c9e3,Mounting Kernel Configuration File System...,3
+60b146d0,Mounted Kernel Configuration File System.,3
+2ac0e54c,Started udev Coldplug all Devices.,3
+40f5892b,Reached target System Initialization.,6
+a3fa92bd,ena: Elastic Network Adapter (ENA) v2.1.0K,3
+b4c65ba8,"link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.",12
+bc65f115,ena 00<*>.0: Elastic Network Adapter (ENA) v2.1.0K,3
+5dee289f,ena: ena device version: 0.10,3
+495b38a5,ena: ena controller version: 0.0.1 implementation version 1,3
+7b615d9e,nvme nvme0: pci function 00<*>.0,3
+898a04dd,PCI Interrupt Link [LNKD] enabled at IRQ 11,3
+bb633b42,ena 00<*>.0: LLQ is not supported Fallback to host mode policy.,3
+429ba51d,ena 00<*>.0: creating 2 io queues. rx queue size: 1024 tx queue size. 1024 LLQ is DISABLED,3
+9a0953f0,"ena 00<*>.0: Elastic Network Adapter (ENA) found at mem febf4000, mac addr 02:ad:4f:b4:eb:00 Queues 2, Placement policy: Regular",3
+4795b4dc,nvme nvme0: 2/0/0 default/read/poll queues,3
+78cf26ad,nvme0n1: p1,3
+17ad6019,Found device Amazon Elastic Block Store 1.,3
+d8020ca1,Reached target Initrd <*> <*>,6
+655771c3,Reached target Remote File Systems (Pre).,6
+fdfb28e9,Reached target <*> File Systems.,9
+fdbd220f,Starting File System Check on /dev/disk/by-uuid/e1fde865-e606-4e2b-b95a-dc593a01161f...,3
+99e596b7,/usr/sbin/fsck.xfs: XFS file system.,3
+dcc963a2,Started File System Check on /dev/disk/by-uuid/e1fde865-e606-4e2b-b95a-dc593a01161f.,3
+cf9aa263,Mounting /sysroot...,3
+858b1354,"SGI XFS with ACLs, security attributes, no debug enabled",3
+1b01dbf6,XFS (nvme0n1p1): Mounting V5 Filesystem,3
+8c370844,XFS (nvme0n1p1): Ending clean mount,3
+a3886c2a,Mounted /sysroot.,3
+4bc8e68f,Reached target Initrd Root File System.,3
+d604f8e7,Starting Reload Configuration from the Real Root...,3
+c39f5440,Reloading.,3
+5534d43e,initrd-parse-etc.service: Succeeded.,3
+7e1d494b,Started Reload Configuration from the Real Root.,3
+a1716733,Starting dracut pre-pivot and cleanup hook...,3
+42035cae,var-lib-nfs-rpc_pipefs.mount: Succeeded.,3
+db3bdf15,Started dracut pre-pivot and cleanup hook.,3
+b06b90e1,Starting Cleaning Up and Shutting Down Daemons...,3
+57e5e595,dracut-pre-pivot.service: Succeeded.,3
+28ea1e21,Stopped dracut pre-pivot and cleanup hook.,3
+e8130788,Stopped target Initrd <*> <*>,6
+9ff26d8c,Stopped target <*> File Systems.,6
+515101f6,Stopped target Remote File Systems (Pre).,3
+f343e19b,dracut-initqueue.service: Succeeded.,3
+9d0daf21,Stopped dracut <*> hook.,12
+198523a3,Stopped target System Initialization.,3
+2913f597,systemd-sysctl.service: Succeeded.,3
+9a100e28,Stopped Apply Kernel Variables.,3
+6506a87f,systemd-udev-trigger.service: Succeeded.,3
+f5ca2390,Stopped udev Coldplug all Devices.,3
+0a0b5b1b,Stopped target Local Encrypted Volumes.,3
+ee67de4e,dracut-pre-trigger.service: Succeeded.,3
+5e9136a3,Stopping udev Kernel Device Manager...,3
+b6b6d4dc,systemd-ask-password-console.path: Succeeded.,3
+fd17c553,Stopped Dispatch Password Requests to Console Directory Watch.,3
+4d4d0c4d,systemd-tmpfiles-setup.service: Succeeded.,3
+56f1716f,Stopped Create Volatile Files and Directories.,3
+11e39ee2,systemd-udevd.service: Succeeded.,3
+8efc8f8e,Stopped udev Kernel Device Manager.,3
+af20262d,dracut-pre-udev.service: Succeeded.,3
+c9f212ec,dracut-cmdline.service: Succeeded.,3
+36fda071,Stopping Hardware RNG Entropy Gatherer Daemon...,3
+d8b7cea8,systemd-tmpfiles-setup-dev.service: Succeeded.,3
+34662f49,Stopped Create Static Device Nodes in /dev.,3
+3e74b17e,kmod-static-nodes.service: Succeeded.,3
+c208e711,Stopped Create list of required static device nodes for the current kernel.,3
+3337edd8,systemd-udevd-control.socket: Succeeded.,3
+ee591c15,Closed udev <*> Socket.,6
+ba1ca597,systemd-udevd-kernel.socket: Succeeded.,3
+f84c5ce3,Starting Cleanup udevd DB...,3
+a4d6c6d8,rngd.service: Succeeded.,3
+64d48f0f,Stopped Hardware RNG Entropy Gatherer Daemon.,3
+3bae996b,initrd-cleanup.service: Succeeded.,3
+b28d9e0f,Started Cleaning Up and Shutting Down Daemons.,3
+6321a84f,initrd-udevadm-cleanup-db.service: Succeeded.,3
+bd465988,Started Cleanup udevd DB.,3
+207ccdd2,Reached target Switch Root.,3
+97d22161,Starting Switch Root...,3
+f4091072,Switching root.,3
+e791c374,Journal stopped,3
+1a4cf43a,Received SIGTERM from PID 1 (systemd).,3
+c66f2992,printk: systemd: 28 output lines suppressed due to ratelimiting,3
+ebb6db13,SELinux: Disabled at runtime.,3
+cdf9e13b,audit: type=1404 <*> enforcing=0 old_enforcing=0 auid=4294967295 ses=4294967295 enabled=0 old-enabled=1 lsm=selinux res=1,3
+ba381244,systemd-journald.service: Succeeded.,3
+93d8f344,initrd-switch-root.service: Succeeded.,3
+38e679d5,Stopped Switch Root.,3
+5e57c6c5,"systemd-journald.service: Service has no hold-off time (RestartSec=0), scheduling restart.",3
+f91a8a7c,"systemd-journald.service: Scheduled restart job, restart counter is at 1.",3
+acbe5262,Stopped Journal Service.,3
+4a6c0d2b,"[/usr/lib/tmpfiles.d/elasticsearch.conf:1] Line references path below legacy directory /var/run/, updating /var/run/elasticsearch → /run/elasticsearch; please update the tmpfiles.d/ drop-in file accordingly.",8
+e1db1317,Starting Flush Journal to Persistent Storage...,3
+7a4412e1,Started Flush Journal to Persistent Storage.,3
+553b6ace,Starting Create Volatile Files and Directories...,3
+728ff653,[/usr/lib/tmpfiles.d/elasticsearch.conf:1] Unknown user 'elasticsearch'.,5
+0dce4002,Started Create Volatile Files and Directories.,3
+509ef592,Starting RPC Bind...,3
+6be8674a,Starting Security Auditing Service...,3
+7c8a47a2,audit dispatcher initialized with q_depth=400 and 1 active plugins,3
+6427e344,"Init complete, auditd 3.0 listening for events (startup state enable)",3
+55a565bd,Started RPC Bind.,3
+18432750,/sbin/augenrules: No change,3
+cc63a5ac,No rules,3
+23bc18e5,enabled 1,9
+5bb0d848,failure 1,9
+bea5c115,pid 694,3
+b0eef09c,rate_limit 0,9
+0faee637,backlog_limit 8192,9
+3360fd5b,lost 0,9
+0d94f60c,backlog 3,1
+01e5872f,backlog_wait_time 60000,9
+2635e8f8,backlog 4,3
+30c3c40c,backlog 8,1
+18e1df3f,Started Security Auditing Service.,3
+49f78a1f,Starting Update UTMP about System Boot/Shutdown...,3
+23674c1b,Started Update UTMP about System Boot/Shutdown.,3
+e78729f5,Starting Initial cloud-init job (pre-networking)...,3
+c9095f0e,Started daily update of the root trust anchor for DNSSEC.,3
+35cdcbd1,Listening on SSSD Kerberos Cache Manager responder socket.,3
+0243bf6e,Started Opendistro for Elasticsearch Performance Analyzer.,15
+b4c06e6c,Started D-Bus System Message Bus.,3
+7e5a0f66,Starting Hardware RNG Entropy Gatherer Wake threshold service...,3
+10ebdb4d,Started irqbalance daemon.,3
+250c1ac4,Started dnf makecache --timer.,3
+65ebf621,Starting System Security Services Daemon...,3
+d3980a7a,Started Daily Cleanup of Temporary Directories.,3
+81a51bcf,Starting <*> Manager...,6
+9f0f57a6,Starting NTP client/server...,3
+22d79222,Started Hardware RNG Entropy Gatherer Wake threshold service.,3
+3547296b,Started Hardware RNG Entropy Gatherer Daemon.,3
+679ce7b5,"piix4_smbus 00<*>.3: SMBus Host Controller at 0xb100, revision 255",3
+fd7c3881,input: PC Speaker as /devices/platform/pcspkr/input/input5,3
+75437595,Decoding supported only on Scalable MCA processors.,6
+22e85092,opendistro-performance-analyzer.service: Failed to determine user credentials: No such process,15
+c5e27f39,opendistro-performance-analyzer.service: Failed at step USER spawning /usr/share/elasticsearch/bin/performance-analyzer-agent-cli: No such process,15
+9aaa6d02,"opendistro-performance-analyzer.service: Main process exited, code=exited, status=217/USER",15
+0c495fea,opendistro-performance-analyzer.service: Failed with result 'exit-code'.,18
+479024bc,parport_pc 00:03: reported by Plug and Play ACPI,3
+71d7589c,Started polkitd version 0.115,3
+123511d7,ppdev: user-space parallel port driver,3
+2431be2b,chronyd version 3.5 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +SECHASH +IPV6 +DEBUG),3
+dab3d06b,Frequency <*> +/- <*> ppm read from /var/lib/chrony/drift,3
+69cde803,Using right/UTC timezone to obtain leap second data,3
+53099919,"opendistro-performance-analyzer.service: Service RestartSec=100ms expired, scheduling restart.",15
+76f2160c,"opendistro-performance-analyzer.service: Scheduled restart job, restart counter is at <*>",15
+215b71d2,Stopped Opendistro for Elasticsearch Performance Analyzer.,15
+c0608dba,Starting up,9
+eaf07c74,Started NTP client/server.,3
+1e4ccd56,Started <*> Manager.,6
+bf07406e,Started System Security Services Daemon.,3
+58ea0a5e,Reached target User and Group Name Lookups.,3
+2e322db0,Starting <*> Service...,6
+983a05d9,Internet Systems Consortium DHCP Client 4.3.6,3
+e9b2dabc,Copyright 2004-2017 Internet Systems Consortium.,3
+1efc109b,All rights reserved.,3
+137389d4,"For info, please visit https://www.isc.org/software/dhcp/",3
+b2e3e848,Listening on LPF/eth0/02:ad:4f:b4:eb:00,3
+bbadc51a,Sending on <*>,6
+13f24e4d,"Created duid ""\000\004\354#\226V\177;A\203\210\252hv\344;\224%"".",3
+2c0f1f41,DHCPDISCOVER on eth0 to <*> port 67 interval <*> <*>,3
+97623edc,DHCPREQUEST on eth0 to <*> port 67 <*>,3
+9d9fd6eb,DHCPOFFER from <*>,3
+3987f3b7,DHCPACK from <*> (xid=0x6c092353),1
+032e2c6f,bound to <*> -- renewal in <*> seconds.,3
+4e85c016,opendistro-performance-analyzer.service: Start request repeated too quickly.,3
+a5702e8c,Failed to start Opendistro for Elasticsearch Performance Analyzer.,3
+e3a3915a,Watching system buttons on <*> <*> Button),6
+a06f6892,Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard),3
+f2bb95c7,New seat seat0.,3
+251593e6,Started <*> Service.,6
+bc885629,Cloud-init v. 19.4 running <*> at <*> <*> Jul 2021 <*> +0000. Up <*> seconds.,12
+4d107eed,Started Initial cloud-init job (pre-networking).,3
+5ac1441e,Reached target Network (Pre).,3
+3b69e152,<info> <*> NetworkManager (version 1.26.0-12.el8_3) is starting... (for the first time),3
+f2bbcd07,<info> <*> Read config: /etc/NetworkManager/NetworkManager.conf,3
+0e125860,"<info> <*> bus-manager: acquired D-Bus service ""org.freedesktop.NetworkManager""",3
+d0305d4c,Starting Network Manager Wait Online...,3
+8460ea9b,<info> <*> <*> monitoring kernel firmware directory '/lib/firmware'.,3
+17e13c42,Started Amazon CloudWatch Agent.,6
+ba7ff108,Starting Dynamic System Tuning Daemon...,3
+5931ee54,Starting GSSAPI Proxy Daemon...,3
+7c904df1,Started GSSAPI Proxy Daemon.,3
+98a09fe4,Reached target NFS client services.,3
+24b8521e,"amazon-cloudwatch-agent.service: Main process exited, code=exited, status=1/FAILURE",3
+352daab0,amazon-cloudwatch-agent.service: Failed with result 'exit-code'.,3
+b2149527,Started Dynamic System Tuning Daemon.,3
+d4815576,<info> <*> hostname: hostname: using hostnamed,3
+c5d08522,"<info> <*> hostname: hostname changed from (none) to ""elk-anis-test""",3
+82b9dd6f,"<info> <*> <*> init: dns=default,systemd-resolved rc-manager=symlink",3
+f58260d7,<info> <*> Loaded device plugin: NMTeamFactory (/usr/lib64/NetworkManager/1.26.0-12.el8_3/libnm-device-plugin-team.so),3
+d1c8496e,<info> <*> manager: rfkill: <*> enabled by radio killswitch; enabled by state file,6
+c8e80684,<info> <*> manager: Networking is enabled by state file,3
+80c097e8,<info> <*> dhcp-init: Using DHCP client 'internal',3
+5d9674eb,<info> <*> settings: Loaded settings plugin: <*> <*>,6
+1290bdc2,IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready,6
+8cb5200a,<info> <*> device <*> carrier: link connected,6
+a9f45ac2,<info> <*> manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1),3
+7124a862,<info> <*> manager: (eth0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2),3
+ef82ceae,<info> <*> device (eth0): state change: <*> -> <*> (reason <*> sys-iface-state: <*>,24
+08bb4fa6,IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready,3
+fa6d1c6d,<info> <*> policy: auto-activating connection 'System eth0' (5fb06bd0-0bb0-7ffb-45f1-d6edd65f3e03),3
+6fa9d6d5,<info> <*> device (eth0): Activation: starting connection 'System eth0' (5fb06bd0-0bb0-7ffb-45f1-d6edd65f3e03),3
+2f7c7c80,<info> <*> manager: NetworkManager state is now <*>,12
+dc21298e,<info> <*> dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds),3
+ed848839,Initializing AES buffer,4
+85716e14,<info> <*> policy: set 'System eth0' (eth0) as default for IPv4 routing and DNS,3
+18ccf98b,[system] Activation via systemd failed for unit 'dbus-org.freedesktop.resolve1.service': Unit dbus-org.freedesktop.resolve1.service not found.,3
+b7814b0e,"<info> <*> device (eth0): Activation: successful, device activated.",3
+d6cf4f73,<info> <*> manager: startup complete,3
+1fec568f,Started Network Manager Wait Online.,3
+cdc459be,Starting Initial cloud-init job (metadata service crawler)...,3
+9e7504a6,ci-info: ++++++++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++++++++,3
+a8aaa326,ci-info: +--------+------+----------------------------+---------------+--------+-------------------+,9
+83bcad0e,ci-info: | Device | Up | Address | Mask | Scope | Hw-Address |,3
+ce2620f5,ci-info: | <*> | True | <*> | <*> | <*> | <*> |,12
+b6aa2c40,ci-info: +++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++,3
+168395ed,ci-info: +-------+-------------+-------------+---------------+-----------+-------+,9
+c0f5508f,ci-info: | Route | Destination | Gateway | Genmask | Interface | Flags |,3
+8dfe05d6,ci-info: | <*> | <*> | <*> | <*> | eth0 | <*> |,6
+18f76c70,ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++,3
+cb05afe8,ci-info: +-------+-------------+---------+-----------+-------+,9
+cff38c7a,ci-info: | Route | Destination | Gateway | Interface | Flags |,3
+22efafc8,ci-info: | <*> | <*> | :: | eth0 | U |,7
+7c647ef1,Started Initial cloud-init job (metadata service crawler).,3
+d22f2f87,Reached target Cloud-config availability.,3
+4ac042da,Starting OpenSSH server daemon...,3
+18485d6f,Reached target Network is Online.,3
+8f1139b4,Started Gravwell HTTP Post Ingester Service.,3
+e752c49e,Starting System Logging Service...,3
+eeae01dc,Starting Crash recovery kernel arming...,3
+4e343314,Starting Notify NFS peers of a restart...,3
+2c6ce340,Started Gravwell <*> <*> Service.,33
+e13fa588,Starting Elasticsearch...,3
+95581589,Starting Apply the settings specified in cloud-config...,3
+28c981c3,Started Gravwell <*> Service.,9
+588a4ebd,Started Nagios Remote Plugin Executor.,3
+fce63473,Starting Permit User Sessions...,3
+eb476b79,Started Notify NFS peers of a restart.,3
+26ebc730,Started OpenSSH server daemon.,3
+7fd87297,"[origin software=""rsyslogd"" swVersion=""8.1911.0-6.el8"" <*> x-info=""https://www.rsyslog.com""] start",3
+5c804303,Started System Logging Service.,3
+d6957a01,Started Permit User Sessions.,3
+9b7ca9be,elasticsearch.service: Failed to determine user credentials: No such process,3
+e076bcaa,elasticsearch.service: Failed at step USER spawning /usr/share/elasticsearch/bin/systemd-entrypoint: No such process,3
+6f6b3489,"elasticsearch.service: Main process exited, code=exited, status=217/USER",3
+482ba24e,elasticsearch.service: Failed with result 'exit-code'.,3
+a62d000c,Failed to start Elasticsearch.,3
+b2e22f90,Started Serial Getty on ttyS0.,3
+74fc2902,Started Getty on tty1.,3
+01b94a16,Reached target Login Prompts.,3
+bb957dcc,Started Command Scheduler.,3
+8e456186,Starting Update UTMP about System Runlevel Changes...,3
+d33ce4e3,Starting up daemon,3
+46723ad8,Server listening on <*> port 5666.,6
+373ee4c7,Listening for connections on port 5666,3
+c97ed2e1,"Allowing connections from: <*>,::1",3
+f91b8672,systemd-update-utmp-runlevel.service: Succeeded.,3
+dc652287,Started Update UTMP about System Runlevel Changes.,3
+d80cd549,<*> <*> INFO Initializing connection to pipe:///opt/gravwell/comms/pipe,87
+40cbdee0,<*> <*> WARN Connection error on pipe:///opt/gravwell/comms/pipe: dial unix /opt/gravwell/comms/pipe: connect: no such file or directory,54
+b2cdf685,"imjournal: journal files changed, reloading... [v8.1911.0-6.el8 try https://www.rsyslog.com/e/0 ]",3
+3a9bf9d7,device eth0 entered promiscuous mode,3
+ec6f39ee,"<*> <*> INFO Starting sniffer spy1 on eth0 with ""not port 4023""",6
+5ba2ce46,"proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by <*> <*>",3
+067f1e50,Mounting Arbitrary Executable File Formats File System...,3
+1301a05b,Mounted Arbitrary Executable File Formats File System.,3
+d48b7433,Started Apply the settings specified in cloud-config.,3
+28ff74fe,Starting Execute cloud user/final scripts...,3
+37eb63f4,Selected source <*>,4
+916f4ee6,System clock TAI offset set to 37 seconds,3
+88062da3,"System clock wrong by <*> seconds, adjustment started",2
+12a2dd10,System clock was stepped by <*> seconds,2
+bec942e3,Cloud-init v. 19.4 finished at <*> <*> Jul 2021 <*> +0000. Datasource DataSourceEc2Local. Up <*> seconds,3
+598f8e78,trying to reload or restart NetworkManager.service,3
+70208b68,Reloading Network Manager.,3
+404f5cc5,"<info> <*> audit: op=""reload"" arg=""0"" <*> uid=0 result=""success""",3
+06a2d5a5,<info> <*> config: signal: SIGHUP (no changes from disk),3
+c49f01a1,Reloaded Network Manager.,3
+0303ede2,Started Execute cloud user/final scripts.,3
+c7e9f437,Reached target Cloud-init target.,3
+aec9364c,kexec: loaded kdump kernel,3
+c18c8af7,Starting kdump: [OK],3
+dc4b8411,Started Crash recovery kernel arming.,3
+24a64498,Startup finished in <*> (kernel) + <*> (initrd) + <*> (userspace) = <*>,3
+ba557592,"All connections failed, waiting 10s for backend ......... Failed to connect to indexer, starting",3
+26ff42cf,1 connections failed,3
+d81b9c0b,#011Error: dial tcp <*>:9404: connect: connection refused,3
+be54f6d2,Frontend Running,3
+d46c33c4,systemd-hostnamed.service: Succeeded.,3
+32bbe5a9,"<*> <*> INFO Connection to pipe:///opt/gravwell/comms/pipe established, completing negotiation & requesting approval to ingest",33
+95afb8e9,<*> <*> INFO Successfully connected to pipe:///opt/gravwell/comms/pipe with ingest OK,33
+c908e427,<*> <*> INFO connected to pipe:///opt/gravwell/comms/pipe,33
+096b9bb7,<*> <*> INFO Ingester <*> has gone hot,24
+72e824f5,"<*> SimpleRelay/simple.go:149 FATAL Failed to listen on ""<*>:514"" via udp for syslogudp: listen udp <*>:514: bind: address already in use",18
+b9561a7b,gravwell_simple_relay.service: Succeeded.,18
+81cb2bdb,"gravwell_simple_relay.service: Service RestartSec=100ms expired, scheduling restart.",18
+b95415d4,"gravwell_simple_relay.service: Scheduled restart job, restart counter is at <*>",18
+942f17ea,Stopped Gravwell Log Relay Service.,18
+a521df2d,gravwell_simple_relay.service: Start request repeated too quickly.,3
+3d3f2e7d,gravwell_simple_relay.service: Failed with result 'start-limit-hit'.,3
+2dd6bd47,Failed to start Gravwell Log Relay Service.,3
+c6005c17,gravwell_simple_relay.service: Triggering OnFailure= dependencies.,3
+6a723cd2,gravwell_crash_reporter@gravwell_simple_relay.service.service: Succeeded.,3
+29a74a3d,"amazon-cloudwatch-agent.service: Service RestartSec=1min expired, scheduling restart.",3
+9998727d,"amazon-cloudwatch-agent.service: Scheduled restart job, restart counter is at 1.",3
+833ac11e,Stopped Amazon CloudWatch Agent.,3
+0bce0e52,/opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.json does not exist or cannot read. Skipping it.,3
+5c79746b,Valid Json input schema.,3
+cbba3318,I! Detecting run_as_user...,3
+038a758d,Starting Cleanup of Temporary Directories...,2
+c92539ee,systemd-tmpfiles-clean.service: Succeeded.,2
+20447797,Started Cleanup of Temporary Directories.,2
+e27d3b10,Starting update of the root trust anchor for DNSSEC validation in unbound...,4
+f84c9c3f,unbound-anchor.service: Succeeded.,4
+0a302825,Started update of the root trust anchor for DNSSEC validation in unbound.,4
+d3c1a74a,"sched_clock: Marking stable (1233970544, 0)->(1929766909, -695796365)",1
+d4643c42,Listening on Journal Socket.,1
+927eef1c,Started Memstrack Anylazing Service.,1
+8ce288bb,pid 684,3
+524f4168,backlog 0,3
+07f64b18,DHCPACK from <*> (xid=0x6404ce76),1
+a9427789,(to root) centos on pts/0,3
+9b73408c,"sched_clock: Marking stable (1242223828, 0)->(1934367383, -692143555)",1
+2e7c532c,Started Dispatch Password Requests to Console Directory Watch.,1
+bc808fbb,pid 681,3
+3dd3b7e6,backlog 2,1
+cb50d97f,DHCPACK from <*> (xid=0x8740eb7e),1
+239aa1f1,CentOS Linux 8 - <*> <*> MB/s | <*> MB <*>,2
+9bfc5274,session-3.scope: Succeeded.,1

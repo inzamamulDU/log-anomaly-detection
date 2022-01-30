@@ -1,0 +1,24 @@
+EventId,EventTemplate,Occurrences
+1017c15d,c.afekv.com IN A + (<*>),18279
+f36b878b,peacecorps.gov IN <*> <*> (<*>),8856
+7b4c7376,<*> IN A <*> (<*>),371707
+e103266f,pizzaseo.com IN <*> <*> (<*>),341
+fe6786c0,VERSION.BIND CH TXT <*> (<*>),66
+2c0e7591,<*> IN <*> +E(0) (<*>),88
+a401b243,<*>.in-addr.arpa IN PTR <*> (<*>),81
+733e009d,version.bind <*> <*> + (<*>),25046
+1a2e9944,api.version CH TXT + (<*>),4
+d80fff0f,microsoft.com IN TXT +E(0)D (<*>),1
+bcc184f3,comcast.com IN TXT +E(0)D (<*>),1
+4d432428,nokia.com IN TXT +E(0)D (<*>),1
+b5ababd9,<*> IN TXT <*> (<*>),942
+f04ef92e,version.bind CH TXT <*> (<*>),35
+f13d0ab2,id.server CH TXT +T (<*>),5
+184d7c39,hostname.bind CH TXT <*> (<*>),9
+5a6e9a83,id.server IN A + (<*>),7443
+0d47f76b,hostname.bind IN A + (<*>),7443
+8eb1d3b6,<*> IN <*> + (<*>),21195
+d3e7976f,mz.gov.pl IN ANY +E(0)K (<*>),3
+d39ab46d,. IN <*> <*> (<*>),84
+eea6b95d,localhost IN AXFR -T (<*>),2
+4d825074,dns.msftncsi.com IN <*> <*> (<*>),117605
